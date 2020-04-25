@@ -1,0 +1,80 @@
+body {
+ color: purple ;
+ background-color: #f0f0f0 ;
+ width: 96% ;
+ margin: 0px auto ; 
+ font-family: candara ;
+ }
+header {
+ color: yellow; 
+ background-color: black;
+ border-color: #000000 ;
+ border-style: groove;
+  border-top-left-radius: 15px ;
+ border-top-right-radius: 15px ;
+ margin-bottom: 10px ;
+ padding-left:50px ;
+ } 
+#pheader{
+ font-size: 2em ;
+}
+@keyframes placeHolderShimmer{
+	0%{
+		background-position: -460px
+	}
+	100%{
+		background-position: 4560px
+	}
+}
+.animated-background {
+	animation-duration: 1s;
+	animation-fill-mode: 
+}
+.profile {
+ color: white;
+ border: 2px ;
+ border-top-left-radius: 15px ;
+ border-top-right-radius: 15px ;
+ background-color: maroon ;
+ background: linear-gradient(to top right, maroon , red) ;
+ padding-left: 10px ; 
+ display: block;
+ width: 40%;
+ }
+ .section2{
+ width: 30%;
+ }
+.mypic{
+ float: left ;
+ margin-right: 20px ;
+ -webkit-transition: 0.5s ease-in-out;
+ }
+.mypic:hover{
+ transform:scale(1.1);
+ }
+div.profile {
+ font-size: 20px ;
+ font-weight: bold ;
+ }
+ul { 
+ color: black ;
+ 
+ } 
+div.info {
+ color: #ffffff ;
+ font-family: arial ;
+ background-color: blue ;
+ padding: 3px ;
+ padding-left: 20px ;
+ padding-right: 10px ;
+ font-size: 20px ;
+ font-weight: bolder ;
+ margin: 20px 0px ;
+ border-radius: 5px ;
+ }
+div.form {
+  display: inline-table;
+  color: #bbbbbb ;
+ background-color: #11233b ;
+ padding: 20px ;
+}

@@ -1,0 +1,86 @@
+ @charset 'UTF-8';
+
+header, nav {
+ display: block ;
+}
+body {
+ font-size: 15px ;
+ width: 96% ;
+ margin: 0px auto ;
+ background-color: #D3D3D3  ;
+ font-family: candara ;
+}
+header {
+ color: #bbbbbb ;
+ background-color: #11233b ;
+ text-align: center ;
+ padding: 20px ;
+ border-top-right-radius: 25px;
+}
+nav {
+ background: #20146c ;
+ font-family: arial ;
+ margin-top: 1px ;
+ text-align: center;
+ padding: 10px ;
+ font-size: 18px ;
+}
+span {
+ font-size: 2em ;
+ color: darkblue ;
+}
+li {
+ display: inline ;
+ margin: 30px ;
+ font-variant: small-caps ;
+ font-weight: bold ;
+ padding: 15px ;
+}
+nav li a {
+ color: #ffffff ;
+ text-decoration: none;
+ vertical-align: middle;
+ padding: 20px ;
+ cursor: pointer;
+}
+a:hover {
+ color: white ;
+ background-color: #000000 ;
+}
+h3 {
+color: #11233b ;
+font-size: 30px ;
+}
+main{
+	width: 100%;
+ background-color: #f0f0f0 ;
+ color: #000000 ;
+ padding: 15px ;
+ margin-top: 20px ;
+ margin-right: 280px ;
+
+}
+aside {	
+ background-color: #f0f0f0 ;
+ color: #000000
+ padding: 10px ;
+ margin-top: 20px ;
+ padding: 10px ;
+ float: right ;
+ width: 250px ;
+}
+p a{
+ text-decoration: none;
+ padding: 20px ;
+ text-align: center;
+ font-size: 16px ;
+ font-weight: bolder;
+}
+footer {
+ color: #bbbbbb ;
+ background-color: #11233b ;
+ text-align: center ;
+ padding: 20px ;
+ margin-top: 20px ;
+ display: block;
+}

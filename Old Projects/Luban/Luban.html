@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+ <html lang='en'>
+    <head>
+
+      <meta charset='UTF-8'>
+      <title> OGTSC </title>
+      <link rel="stylesheet" type="text/css" href="LubanStylesheet.css">
+    </head>
+
+    <body>
+
+      <header>
+             <h1>LUbanTech Model Computer Based Examination</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Posts</a></li>
+          <li><a href="">More</a></li>
+        </ul>
+      </nav>
+
+        <aside>
+           
+          <p> <a href="">Previous Results</a><br><br><br> </p>
+          <p> <a href="">Practice Questions</a><br><br><br></p>
+          <p> <a href="">Workers Profile</a><br><br><br></p>
+          <p> <a href="">Reviews</a><br><br><br></p>
+          <p> <a href="">Others</a><br></p>
+        </aside>
+
+        <div  class="main">
+
+          <h3><span>W</span>elcome to this Year's Promotional Examination</h3>
+        
+
+         <form action='signing.php' method='post'>
+
+            <fieldset>
+            
+              <legend><h4>You are required to fill the following boxes with the correct information</h4></legend>
+            
+              <table>
+               <tr>
+                  <td><label for='male'>Male:</label>  </td>
+                  <td> <input type='radio' name='maleorfemale' class="textbox radio"  value='male'></td>
+               <tr>
+                  <td><label for='female'>Female:</label></td>
+                  <td><input type='radio' name='maleorfemale' class="textbox radio" value='female'></td>
+               </tr>
+               <tr>
+                  <td><label for='name'>Name</label></td>
+                  <td><input type='text' id='name' placeholder="Name"class="textbox"  name="name" required></td>
+               </tr>
+               <tr>
+                  <td><label for='age'>Age</label></td>
+                  <td><input type='number' id='age' name="age" class="textbox" required></td>
+               </tr>
+
+               <tr>
+                  <td><label for='email'>Email</label></td>
+                  <td><input type='email' id='email' name='email' placeholder='Email 'class="textbox" required></td>
+               </tr>
+               <tr>
+                  <td><label for='password'>Password</label></td>
+                  <td><input type='password' id='password' placeholder="Password" class="textbox" name="password" required></td>
+               </tr>
+              </table><br> 
+                
+              <input type='submit' value='Submit'>
+
+            </fieldset>
+         </form>
+
+        </div> 
+
+        <footer>
+          &copy; 2018 LubanTech Enterprise. All Right Reserved.
+
+        </footer>
+
+     <script type="text/javascript" src="bootstrap.js"></script>
+    </body>
+ </html>
